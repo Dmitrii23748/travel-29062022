@@ -956,6 +956,14 @@ a {
 }
 
 @media (max-width: 665px) {
+  .popap__btn-google,
+  .popap__btn-facebook {
+    padding-left: 0;
+  }
+  .popap__btn-google::after,
+  .popap__btn-facebook::after {
+    display: none;
+  }
   .footer-travel__item-img {
     flex: 0 0 250px;
     margin-right: 10px;
